@@ -245,9 +245,7 @@ header .fa-bars{
     text-align: center;
     padding-block: 10px;
 }
-.client .icon .icon1 img{
-    
-}
+
 .client .icon .icon2{
     background-color: #FD6E0A;
     border-radius: 50%;
@@ -326,10 +324,7 @@ header .fa-bars{
    
    
 }
-/* .Lead .lead2 img {
-    
-    padding-left: 10px;
-} */
+
 .Lead .lead2 h2{
     padding-block: 10px;
 }
@@ -654,10 +649,11 @@ header .fa-bars{
 }
 .i44 .btn {
     display: flex;
+    justify-content: end;
 }
 .i44 .btn .Em{
     padding: 8px 0px;
-    width: 100%;
+    width: 100vw;
     text-align: left;
     padding-inline-start: 10px;
     border-radius: 10px;
@@ -668,8 +664,8 @@ header .fa-bars{
     margin-block: 20px;
 }
 .i44 .btn .Sb{
-    padding: 8px 0px;
-    width: 100px;
+    padding: 8px 26px;
+    
     border-radius: 10px;
     position: absolute;
     text-align: center;
@@ -678,7 +674,7 @@ header .fa-bars{
     background-color: #15295F;
     border: 1px solid #15295F;
     margin-top: 20px;
-    margin-left: 50%;
+    
 }
 .quick .circle1 {
     display: flex;
@@ -770,7 +766,7 @@ footer .circle1 .circle2 .fa-brands {
     }
     header .nav-toggle{
         top: 13%;
-        margin-left: 3%;
+        margin-left: 0%;
         
        }
        header .navlist ul li {
@@ -959,9 +955,7 @@ footer .circle1 .circle2 .fa-brands {
         width: auto;
     }
    
-    .client .icon .icon1 img{
-        
-    }
+    
     .Lead .lead1 .lead11 {
         flex-direction: column;
     }
@@ -975,9 +969,7 @@ footer .circle1 .circle2 .fa-brands {
         font-weight: 300;
         padding-block: 20px;
     }
-    .Lead .lead1{
-        
-    }
+    
     .Lead .lead1 h1{
         margin-bottom: 25px;
         margin-inline-start: 0px;
