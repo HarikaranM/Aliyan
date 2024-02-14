@@ -1106,10 +1106,11 @@ footer .circle1 .circle2 .fa-brands {
     .Lead .lead5 .brand1{
         background-color: #ffffff;
         border-radius: 50%;
-        padding: 13px;
+        padding: 12px;
     }
     .Lead .lead5 .brand1 img{
         width: auto;
+        display: flex;
        
     }
     .Lead .lead2 .lead3{
