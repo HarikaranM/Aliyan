@@ -61,14 +61,25 @@ header .fa-bars{
 }
 .Fox {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-family: "Poppins", sans-serif;
+    margin-inline: 15%;
+    padding-block: 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin-bottom: 40px;
+}
+.Fox .Fox1 {
+    background-color: #FD6E0A;
+    border-radius: 50%;
+    padding: 10px;
 }
 .Fox .jen{
     display: flex;
 }
  .Fox1 img {
-    margin-top: 5px;
+    border-radius: 75%;
+    display: flex;
 }
 .digital{
     display: flex;
@@ -170,18 +181,21 @@ header .fa-bars{
     border-radius: 50%;
     padding: 12px;
     padding-top: 20px;
+    width: 27%;
 }
 .market .ads .item1 .design2{
     background-color: #FFAF00;
     border-radius: 50%;
     padding: 12px;
     padding-top: 20px;
+    width: 27%;
 }
 .market .ads .item1 .design3{
     background-color: #FF4E6E;
     border-radius: 50%;
     padding: 12px;
     padding-top: 20px;
+    width: 27%;
 }
 
 .market .ads .item1 p{
@@ -292,8 +306,8 @@ header .fa-bars{
 .client .learn3{
     padding: 14px 0px;
     width: 60%;
-    text-align: left;
-    padding-inline-start: 15px;
+    text-align: center;
+   
     border-radius: 8px;
     font-size: 18px;
     color: #ffffff;
@@ -659,7 +673,7 @@ header .fa-bars{
 
 .quick{
     display: flex;
-    justify-content: space-between;
+    
     align-items: flex-start;
     padding-inline: 11%;
     background-color: #FD6E0A;
@@ -668,6 +682,9 @@ header .fa-bars{
 }
 .quick .quick1 {
     width: 25%;
+}
+.quick .nav11{
+    display: flex;
 }
 
 .quick .quick2{
@@ -701,6 +718,9 @@ header .fa-bars{
 .i44 .btn {
     display: flex;
     justify-content: end;
+}
+.nav1 .i44 {
+    display: block;
 }
 .i44 .btn .Em{
     padding: 8px 0px;
@@ -739,6 +759,10 @@ header .fa-bars{
     justify-content: center;
     padding: 10px;
     color: #FD6E0A;
+    font-size: 20px;
+}
+.quick .circle1 .circle2 .fa-facebook-f{
+    padding-inline: 3px;
 }
 .nav1 .i44 {
     line-height: 35px;
@@ -853,7 +877,7 @@ footer .circle1 .circle2 .fa-brands {
     .Fox .Fox1{
         background-color: #FD6E0A;
         border-radius: 50%;
-        padding: 8px;
+        padding: 10px;
     } 
     .Fox .Fox2{
         background-color: #FD6E0A;
@@ -938,7 +962,15 @@ footer .circle1 .circle2 .fa-brands {
     .market{
         padding: 30px 7%;
     }
-    
+    .market .ads .item1 .design1{
+        width: auto;
+    }
+    .market .ads .item1 .design2{
+        width: auto;
+    }
+    .market .ads .item1 .design3{
+        width: auto;
+    }
     .market .ads .item1{
         text-align: center;
         display: flex;
@@ -1015,7 +1047,10 @@ footer .circle1 .circle2 .fa-brands {
         padding: 30px 0px;
     }
     .client .icon .icon2 img{
-        width: 50px;
+        
+        border-radius: 70%;
+        display: flex;
+    
     }
     .client .icon .icon2{
         width: auto;
@@ -1155,6 +1190,7 @@ footer .circle1 .circle2 .fa-brands {
     .quick .nav11{
         width: 100%;
         padding-bottom: 5%;
+        flex-direction: column;
     }
     .i33 .sub-btn{
         display: block;
@@ -1178,6 +1214,7 @@ footer .circle1 .circle2 .fa-brands {
         display: block;
         opacity: 1;
         visibility: visible;
+        position: relative;
         transition: 0s;
         z-index: 1000;
         margin-top: 10px;
@@ -1332,6 +1369,15 @@ footer .circle1 .circle2 .fa-brands {
         border-radius: 50px;
         padding: 35px 0px;
        
+    }
+    .market .ads .item1 .design1{
+        width: 24%;
+    }
+    .market .ads .item1 .design2{
+        width: 24%;
+    }
+    .market .ads .item1 .design3{
+        width: 24%;
     }
     .client .icon .icon2 img {
         width: 50%;
