@@ -6,7 +6,7 @@ $(document).ready(function(){
 
     });
     $('.i33').click(function(){
-        $(this).next('.i44').slideToggle();
+        $(this).next('.i44').slideToggle('fa-times');
         $(this).next('.fa-caret').toggleClass('rotate');
         
     });
