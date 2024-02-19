@@ -1220,6 +1220,10 @@ header .fa-bars{
        
         line-height: 35px;
     }
+    .team .team4 .sd {
+        
+        width: 45%;
+    }
     
     .say{
         padding-inline: 5%;
@@ -1441,7 +1445,7 @@ header .fa-bars{
 @media (min-width:1000px){
     header .navlist ul {
        
-        margin-left: 100px;
+        margin-left: 85px;
     }
     .client .some{
         margin-inline-end: 10%;
