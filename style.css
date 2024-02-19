@@ -824,6 +824,7 @@ header .fa-bars{
 }
 .quick .circle1 {
     display: flex;
+    padding-block: 20px;
 }
 .quick .circle1 .circle2{
     margin-right: 10px;
@@ -845,49 +846,6 @@ header .fa-bars{
     font-size: 16px;
     padding-top: 10px;
 }
-footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-inline: 11%;
-    
-    padding-block: 15px;
-    border-top: 1px solid #F1F2F4;
-}
-footer .circle{
-   
-    color: #90939D;
-    font-size: 14px;
-   
-}
-footer .circle1{
-   
-    display: flex;
-    
-    justify-content: center;
-}
-footer .circle1 i{
-    padding-inline: 10px;
-}
-footer .circle1 .circle2{
-    font-size: 34px;
-    background-color: #864FFB;
-    border-radius: 77%;
-    width: 2vw;
-    text-align: center;
-    margin-inline: 5px;
-}
-
-
-footer .circle1 .circle2 .fa-brands {
-    color: #ffffff;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-block: 40%;
-}
-
 
 
 
@@ -1428,7 +1386,7 @@ footer .circle1 .circle2 .fa-brands {
     }
 }
 
-@media (min-width:900px)  and (max-width:1024px){
+@media (min-width:900px)  and (max-width:1020px){
     header .navlist ul {
         display: flex;
         margin-left: -17%;
@@ -1520,7 +1478,7 @@ footer .circle1 .circle2 .fa-brands {
     }
     .quick .nav11 {
         display: flex;
-        margin-left: -35px;
+        margin-left: -50px;
     }
     .nav1 .i44 {
         position: absolute;
@@ -1547,9 +1505,9 @@ footer .circle1 .circle2 .fa-brands {
     .quick .nav1 .i44 .fa-solid {
         color: #FD6E0A;
         background-color: #ffffff;
-        width: 9%;
+        width: auto;
         border-radius: 50%;
-        padding: 8px;
+        padding: 6px;
         font-size: 10px;
     }
     footer .circle1 {
@@ -1623,6 +1581,26 @@ footer .circle1 .circle2 .fa-brands {
         position: absolute;
         color: #ffffff;
     }
+    .i44 .btn .Em{
+        padding: 8px 0px;
+        width: 21vw;
+        text-align: left;
+        padding-inline-start: 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        color: #15295F;
+        background-color: #ffffff;
+        border: 1px solid #ffffff;
+        margin-block: 20px;
+    }
+    .quick .nav1 .i44 .fa-solid {
+        color: #FD6E0A;
+        background-color: #ffffff;
+        width: 10%;
+        border-radius: 50%;
+        padding: 6px;
+        font-size:10px;
+    }
 }
 @media (min-width:900px)and (max-width:944px){
     .quick .nav11 {
@@ -1634,13 +1612,25 @@ footer .circle1 .circle2 .fa-brands {
         margin-left: 21%;
     }
 }
-@media (min-width:949px)and (max-width:1024px){
+@media (min-width:949px)and (max-width:1020px){
     header .navlist ul {
-        margin-left: 183px;
+        margin-left: 156px;
+    }
+    .quick .nav1 .i44 .fa-solid {
+        color: #FD6E0A;
+        background-color: #ffffff;
+        width: 10%;
+        border-radius: 50%;
+        padding: 6px;
+        font-size: 10px;
     }
     .quick .nav1 {
        
-        margin-left: 35%;
+        margin-left: 23%;
+    }
+    .quick .nav11 {
+        
+        margin-left: -50px;
     }
     .nav1 .i44 {
         position: absolute;
@@ -1653,7 +1643,7 @@ footer .circle1 .circle2 .fa-brands {
         margin-inline: 18%;
     }
     .quick .nav1 {
-        margin-left: 21%;
+        margin-left: 23%;
     }
 }
 @media (min-width:1440px){
