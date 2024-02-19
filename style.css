@@ -28,7 +28,8 @@ header{
     color: #15295F;
     z-index: 1000;
     width: 100%;
-    padding-block: 32px;
+    padding-block-start: 32px;
+    padding-block-end: 8px;
 }
 header .peak{
     display: flex;
@@ -45,6 +46,9 @@ header .navlist ul li{
 
 p .blg1{
     position: absolute;
+}
+p  span {
+    margin-left: 10px;
 }
 header .navlist ul  .us{
     padding: 15px 0px;
@@ -268,8 +272,8 @@ header .fa-bars{
 .client .some{
     font-family: "Work Sans", sans-serif;
    
-    width: 31%;
     
+    margin-inline-end: 14%;
     margin-block: 20px;
 }
 .client .some h1 {
@@ -336,6 +340,7 @@ header .fa-bars{
     text-align: center;
     padding-block: 10px;
     font-weight: 400;
+    padding-bottom: 30px;
 }
 
 .client .icon .icon2{
@@ -548,14 +553,16 @@ header .fa-bars{
 .team .team4 .name1{
     border: 2px solid #EFEFEF;
     padding: 10px;
-    margin-block: 10px;
+    margin-top: 1px;
+    margin-bottom: 16px;
     border-radius: 4px;
     width: 100%;
 }
 .team .team4 .name2{
     border: 2px solid #EFEFEF;
     width: 100%;
-    margin-block: 10px;
+    margin-top: 1px;
+    margin-bottom: 10px;
     border-radius: 4px;
 }
 .team .team4 img{
@@ -569,14 +576,19 @@ header .fa-bars{
     font-size: 14px;
 }
 .team .team4 .sd{
-    padding: 8px 0px;
-    width: 50%;
-    border-radius: 20px; 
-    font-size: 14px;
+    padding: 15px 0px;
+    width: 25%;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 13px;
     color: #ffffff;
     background-color: #FD6E0A;
     border: 1px solid #FD6E0A;
     margin-top: 20px;
+}
+.team .team4 label{
+    font-size: 13px;
+    font-weight: 300;
 }
 .team .meet{
    padding-block: 30px;
@@ -763,7 +775,7 @@ header .fa-bars{
     display: flex;
 }
 
-.quick .quick2{
+.qu ick .quick2{
     display: flex;
     
    
@@ -1433,7 +1445,11 @@ header .fa-bars{
     }
     .client .some{
         margin-inline-end: 10%;
-
+        width: 40%;
+    }
+    .client .icon .icon2 {
+       
+        margin-top: -45px;
     }
     .market .ads {
       
@@ -1456,12 +1472,7 @@ header .fa-bars{
     .market .ads .item1 .design3 {
         width: auto;
     }
-    .client .icon .goo {
-       
-       
-        padding: 30px 0px;
-       
-    }
+    
     .say .Stars3 p {
         line-height: 30px;
     }
@@ -1511,20 +1522,16 @@ header .fa-bars{
         padding: 6px;
         font-size: 10px;
     }
-    footer .circle1 {
-       
-        font-size: 30px;
-        
-    }
+    
    
     .client .icon {
         
-        grid-template-columns: repeat(auto-fit,minmax(245px,1fr));
+        grid-template-columns: repeat(auto-fit,minmax(203px,1fr));
        
     }
     .client .icon .icon1 {
         width: 100%;
-        height: 85%;
+        height: 73%;
         padding: 25px 0px;
         flex-direction: column;
         margin-inline-end: 525px;
@@ -1782,7 +1789,7 @@ header .fa-bars{
 
 @media (min-width:1300px) and (max-width:1379px){
     header .navlist ul {
-        margin-left: 353px;
+        margin-left: 343px;
     }
     .quick .nav1 {
         margin-top: 10px;
