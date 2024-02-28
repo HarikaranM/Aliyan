@@ -360,7 +360,7 @@ header .fa-bars{
     width: 60%;
     text-align: center;
    
-    border-radius: 8px;
+    border-radius: 50px;
     font-size: 18px;
     color: #ffffff;
     background-color: #FD6E0A;
@@ -587,6 +587,11 @@ header .fa-bars{
     background-color: #FD6E0A;
     border: 1px solid #FD6E0A;
     margin-top: 20px;
+}
+.team .team4 .sd:hover{
+    width: 25%;
+    background-color: #15295F;
+    border: 1px solid #15295F;
 }
 .team .team4 label{
     font-size: 13px;
